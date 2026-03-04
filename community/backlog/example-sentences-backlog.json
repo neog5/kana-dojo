@@ -600,7 +600,7 @@
     "jlpt": "N3",
     "id": 67,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "このアプリは初心者にも使いやすい。",
@@ -609,7 +609,7 @@
     "jlpt": "N3",
     "id": 68,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "日本のニュースを毎日読むようにしています。",
@@ -618,7 +618,7 @@
     "jlpt": "N3",
     "id": 69,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "分からない単語は辞書で調べてから質問してください。",
@@ -627,7 +627,7 @@
     "jlpt": "N4",
     "id": 70,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "来月から新しいプロジェクトに参加することになりました。",
@@ -636,7 +636,7 @@
     "jlpt": "N3",
     "id": 71,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "宿題を忘れないように、カレンダーに書いておきます。",
@@ -762,7 +762,7 @@
     "jlpt": "N4",
     "id": 85,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "もし時間があれば、一緒に復習しませんか。",
@@ -770,7 +770,7 @@
     "english": "If you have time, would you like to review together?",
     "jlpt": "N3",
     "id": 86,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
