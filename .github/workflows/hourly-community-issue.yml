@@ -35,7 +35,7 @@ jobs:
         id: guard
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.PERSONAL_GH_PAT || secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AUTOMATION_PR_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             if (context.eventName !== 'schedule') {
               core.setOutput('should_run', 'true');
@@ -86,7 +86,7 @@ jobs:
         id: create-issue
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.PERSONAL_GH_PAT || secrets.AUTOMATION_PR_TOKEN || secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AUTOMATION_PR_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const templates = require('./.github/templates/messages.cjs');
@@ -1283,7 +1283,7 @@ jobs:
           ISSUE_NUMBER: ${{ steps.create-issue.outputs.issue_number }}
           ISSUE_LABELS: ${{ steps.create-issue.outputs.issue_labels }}
         with:
-          github-token: ${{ secrets.PERSONAL_GH_PAT || secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AUTOMATION_PR_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const issueNumber = Number(process.env.ISSUE_NUMBER);
             const labels = process.env.ISSUE_LABELS.split(',').filter(Boolean);
