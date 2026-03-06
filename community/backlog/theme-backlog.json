@@ -1423,7 +1423,7 @@
     "mainColor": "oklch(72.0% 0.195 35.0 / 1)",
     "secondaryColor": "oklch(85.0% 0.095 275.0 / 1)",
     "issued": false,
-    "completed": false,
+    "completed": true,
     "completedBy": "vraj00222",
     "completedPR": 5778
   },
@@ -1467,7 +1467,7 @@
     "mainColor": "oklch(80.0% 0.055 215.0 / 1)",
     "secondaryColor": "oklch(62.0% 0.045 240.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "id": "matcha-foam",
@@ -1673,7 +1673,9 @@
     "mainColor": "oklch(68.0% 0.085 60.0 / 1)",
     "secondaryColor": "oklch(58.0% 0.045 70.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": true,
+    "completedBy": "ManashaaU",
+    "completedPR": 7366
   },
   {
     "id": "ruby-kabuki",
